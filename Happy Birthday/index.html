@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="passcode-screen" class="screen active">
+  <div class="passcode-layout">
+    
+    <div class="image-section">
+        <img src="photo6.png" alt="Left Photo" class="polaroid-img tilt-left">
+    </div>
+
+    <div class="numpad-section">
+        
+        <h2>Enter a passcode</h2>
+        <div class="passcode-display" id="display">_ _ _ _</div>
+        
+        <div class="numpad">
+            <button class="num-btn" onclick="addNumber(1)">1</button>
+            <button class="num-btn" onclick="addNumber(2)">2</button>
+            <button class="num-btn" onclick="addNumber(3)">3</button>
+            <button class="num-btn" onclick="addNumber(4)">4</button>
+            <button class="num-btn" onclick="addNumber(5)">5</button>
+            <button class="num-btn" onclick="addNumber(6)">6</button>
+            <button class="num-btn" onclick="addNumber(7)">7</button>
+            <button class="num-btn" onclick="addNumber(8)">8</button>
+            <button class="num-btn" onclick="addNumber(9)">9</button>
+            <button class="clear-btn" onclick="clearPasscode()">*</button>
+            <button class="num-btn" onclick="addNumber(0)">0</button>
+            <button class="enter-btn" onclick="checkPasscode()">OK</button>
+        </div>
+        <p id="error-msg"></p>
+
+    </div>
+
+    <div class="image-section">
+        <img src="photo7.png" alt="Right Photo" class="polaroid-img tilt-right">
+    </div>
+</div>
+</div>
+
+<div id="congratulation-screen" class="screen">
+        <h1 class="congrats-title">CONGRATULATION !!🎉</h1>
+
+        <div class="center-photo-container">
+            <img src="photo5.png" alt="Happy Couple" class="cloud-photo">
+        </div>
+
+        <div class="click-here-section">
+            <span class="cat-sticker">🐱🎉</span>
+            <button class="click-here-btn" onclick="goToPromptScreen()">CLICK HERE!</button>
+        </div>
+
+        <h2 class="today-text">Today is your day!!</h2>
+    </div>
+
+    <div id="prompt-screen" class="screen">
+        <h1 class="cute-title">Happy birthday, dear!</h1>
+        <p class="subtitle">do you wanna open your gift?</p>
+        
+        <div class="gift-box">🎁</div>
+        
+        <div class="action-buttons">
+            <button class="yes-btn" onclick="clickYes()">✔️ YES</button>
+            <button class="no-btn" onclick="clickNo()">❌ NO</button>
+        </div>
+    </div>
+
+    <div id="no-screen" class="screen">
+        <h1 class="cute-title">Please try again!!</h1>
+        
+        <img src="sadimage.png" alt="Sad Face" class="cute-character">
+        <br>
+        <button class="try-again-btn" onclick="clickTryAgain()">TRY AGAIN</button>
+    </div>
+
+    <div id="cake-screen" class="screen">
+        <h1 class="cute-title">Make a wish</h1>
+        
+        <img src="cakeimage.png" alt="Cake" class="cake-img">
+        <br>
+        <button class="blow-btn" onclick="clickBlow()">BLOW</button>
+    </div>
+
+    <div id="after-blow-screen" class="screen">
+        <h1 class="cute-title">Happy birthday!!</h1>
+        
+        <div class="after-blow-layout">
+            <img src="birthdaybaby.png" alt="Baby Pic" class="baby-pic">
+            
+            <img src="blowncake2.png" alt="Cake No Candles" class="cake-img">
+        </div>
+        <button class="next-btn" onclick="goToMenu()">NEXT ➔</button>
+    </div>
+
+    <div id="menu-screen" class="screen">
+        <h1 class="cute-title">These are for you!</h1>
+        <p class="subtitle">Choose one to open</p>
+        <div class="menu-grid">
+            <div class="menu-item" onclick="goToScreen('photo-screen')">
+                <span class="icon">📸</span>
+                <p>Memories</p>
+            </div>
+            <div class="menu-item" onclick="goToScreen('letter-screen')">
+                <span class="icon">💌</span>
+                <p>Letter</p>
+            </div>
+            <div class="menu-item" onclick="goToScreen('video-screen')">
+                <span class="icon">⭐</span>
+                <p>Wish</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="photo-screen" class="screen scrollable">
+        <h1 class="cute-title">Our Memories😍🫣</h1>
+        <div class="collage">
+           <div class="memories-grid">
+                <img src="photo1.png" class="memory-img">
+                <img src="photo2.png" class="memory-img">
+                <img src="photo3.png" class="memory-img">
+                <img src="photo4.png" class="memory-img">
+                <img src="photo5.png" class="memory-img">
+                <img src="photo9.png" class="memory-img">
+</div>
+        </div>
+        <button class="back-btn" onclick="goToScreen('menu-screen')">🔙 Back to Menu</button>
+    </div>
+
+    <div id="letter-screen" class="screen scrollable">
+        <h1 class="cute-title">Happy Birthday!</h1>
+        <div class="letter-paper">
+            <p>Dear Bestie,</p>
+            <p>Thank you for their in my life. You are the most caring, loving, and supportive person I know. Your friendship has been a blessing in my life, and I am so grateful for every moment we've shared.</p>
+            <p>May your birthday be filled with all the love and happiness you bring to others!</p>
+            <p>Love always🧿💟,</p>
+            <p>Your Best Friend</p>
+        </div>
+        <button class="back-btn" onclick="goToScreen('menu-screen')">🔙 Back to Menu</button>
+    </div>
+
+    <div id="video-screen" class="screen">
+        <h1>Secret Wish🫂!</h1>
+        <p class="subtitle">Be friends Forever🧿♥️!!</p>
+        <div class="video-container">
+            <img src="photo10.png" class = "secret-img">
+        </div>
+        <button class="back-btn" onclick="goToScreen('menu-screen')">🔙 Back to Menu</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
