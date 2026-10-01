@@ -1,0 +1,46 @@
+vendor_id,vendor_name,vendor_category,payment_terms_days
+V2001,Vendor 001,Technology,30
+V2002,Vendor 002,Logistics,30
+V2003,Vendor 003,Facilities,30
+V2004,Vendor 004,Raw Material,30
+V2005,Vendor 005,Raw Material,45
+V2006,Vendor 006,Professional Services,30
+V2007,Vendor 007,Logistics,30
+V2008,Vendor 008,Logistics,30
+V2009,Vendor 009,Professional Services,45
+V2010,Vendor 010,Facilities,30
+V2011,Vendor 011,Logistics,30
+V2012,Vendor 012,Raw Material,45
+V2013,Vendor 013,Raw Material,45
+V2014,Vendor 014,Technology,30
+V2015,Vendor 015,Logistics,30
+V2016,Vendor 016,Facilities,30
+V2017,Vendor 017,Professional Services,30
+V2018,Vendor 018,Professional Services,30
+V2019,Vendor 019,Facilities,30
+V2020,Vendor 020,Technology,15
+V2021,Vendor 021,Professional Services,15
+V2022,Vendor 022,Logistics,60
+V2023,Vendor 023,Technology,45
+V2024,Vendor 024,Logistics,30
+V2025,Vendor 025,Raw Material,60
+V2026,Vendor 026,Technology,45
+V2027,Vendor 027,Professional Services,30
+V2028,Vendor 028,Technology,30
+V2029,Vendor 029,Technology,15
+V2030,Vendor 030,Technology,15
+V2031,Vendor 031,Technology,30
+V2032,Vendor 032,Logistics,30
+V2033,Vendor 033,Raw Material,30
+V2034,Vendor 034,Facilities,60
+V2035,Vendor 035,Technology,45
+V2036,Vendor 036,Professional Services,30
+V2037,Vendor 037,Technology,60
+V2038,Vendor 038,Professional Services,60
+V2039,Vendor 039,Logistics,60
+V2040,Vendor 040,Professional Services,15
+V2041,Vendor 041,Facilities,45
+V2042,Vendor 042,Raw Material,30
+V2043,Vendor 043,Professional Services,45
+V2044,Vendor 044,Professional Services,60
+V2045,Vendor 045,Raw Material,45

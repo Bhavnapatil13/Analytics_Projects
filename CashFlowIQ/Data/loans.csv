@@ -1,0 +1,4 @@
+loan_id,loan_type,principal_amount,annual_interest_rate,start_date,tenure_months
+L001,Term Loan,8000000,0.105,2025-02-01,48
+L002,Working Capital Loan,5000000,0.115,2025-07-01,36
+L003,Equipment Loan,3000000,0.095,2026-01-01,36

@@ -1,0 +1,61 @@
+product_id,product_name,category,unit_cost,selling_price
+P3001,Product 001,Office Equipment,1135.93,1380.63
+P3002,Product 002,Accessories,2021.1,3041.97
+P3003,Product 003,Electronics,2446.52,3501.32
+P3004,Product 004,Industrial Supplies,1425.53,2184.56
+P3005,Product 005,Services,860.9,1385.35
+P3006,Product 006,Services,185.03,269.22
+P3007,Product 007,Industrial Supplies,2317.64,3525.77
+P3008,Product 008,Office Equipment,2304.26,3538.95
+P3009,Product 009,Electronics,692.24,939.78
+P3010,Product 010,Office Equipment,1762.89,2279.96
+P3011,Product 011,Software,262.55,335.11
+P3012,Product 012,Office Equipment,482.24,626.03
+P3013,Product 013,Office Equipment,604.68,791.6
+P3014,Product 014,Industrial Supplies,792.68,1012.57
+P3015,Product 015,Industrial Supplies,2489.91,3965.84
+P3016,Product 016,Industrial Supplies,1766.56,2713.06
+P3017,Product 017,Services,1009.77,1213.79
+P3018,Product 018,Software,1863.78,2434.61
+P3019,Product 019,Industrial Supplies,2294.92,2731.93
+P3020,Product 020,Electronics,2400.06,3394.02
+P3021,Product 021,Services,220.03,308.88
+P3022,Product 022,Accessories,1034.74,1625.31
+P3023,Product 023,Electronics,338.35,448.2
+P3024,Product 024,Electronics,892.3,1395.29
+P3025,Product 025,Industrial Supplies,490.63,802.15
+P3026,Product 026,Accessories,1645.37,2009.9
+P3027,Product 027,Accessories,1019.61,1582.59
+P3028,Product 028,Services,635.14,925.58
+P3029,Product 029,Accessories,723.57,1017.07
+P3030,Product 030,Software,952.04,1311.58
+P3031,Product 031,Industrial Supplies,709.08,1098.22
+P3032,Product 032,Accessories,1176.84,1742.31
+P3033,Product 033,Services,158.2,246.53
+P3034,Product 034,Software,757.03,1214.64
+P3035,Product 035,Office Equipment,1075.12,1580.55
+P3036,Product 036,Office Equipment,1538.73,2524.78
+P3037,Product 037,Software,735.72,1078.42
+P3038,Product 038,Services,402.31,595.11
+P3039,Product 039,Software,264.4,380.94
+P3040,Product 040,Industrial Supplies,2356.09,2880.96
+P3041,Product 041,Industrial Supplies,1088.27,1655.7
+P3042,Product 042,Office Equipment,1486.41,2136.42
+P3043,Product 043,Accessories,2304.41,3207.57
+P3044,Product 044,Services,280.25,450.62
+P3045,Product 045,Office Equipment,2201.52,2906.1
+P3046,Product 046,Accessories,1414.84,2017.69
+P3047,Product 047,Accessories,478.9,722.13
+P3048,Product 048,Industrial Supplies,1075.24,1671.29
+P3049,Product 049,Electronics,1961.8,2738.46
+P3050,Product 050,Electronics,1242.5,1957.91
+P3051,Product 051,Software,2464.39,3798.59
+P3052,Product 052,Industrial Supplies,991.71,1201.09
+P3053,Product 053,Accessories,1893.98,2275.72
+P3054,Product 054,Services,1031.03,1517.45
+P3055,Product 055,Electronics,2086.58,2802.87
+P3056,Product 056,Accessories,1457.18,1862.7
+P3057,Product 057,Electronics,233.7,339.43
+P3058,Product 058,Electronics,169.11,226.7
+P3059,Product 059,Electronics,403.92,578.62
+P3060,Product 060,Services,113.09,157.9
